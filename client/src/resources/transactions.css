@@ -1,0 +1,43 @@
+.filter{
+    box-shadow: 0 0 3px gray;
+    padding:15px 20px ;
+    border-radius: 5px;
+}
+
+.transaction-form input{
+    border: 1px solid gray;
+}
+
+.transaction-form input:focus{
+    border: 1px solid gray;
+}
+
+.view-switch{
+    border: 1px solid black;
+    padding:5px 10px;
+    border-radius: 3px;
+}
+
+.ant-picker-range{
+    border:1px solid black !important;
+}
+
+.anticon svg{
+    font-size: 20px;
+}
+
+.active-icon{
+    color:green!important;
+    cursor:pointer;
+}
+
+.inactive-icon{
+    color:black;
+    cursor:pointer;
+}
+
+@media screen and (max-width:600px){
+    .filter{
+        overflow-x: scroll;
+    }
+}
